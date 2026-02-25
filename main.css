@@ -1,0 +1,23 @@
+:root{
+    --black-color: green;
+    --tomato-color: purple;
+}
+
+
+.firstsection{
+    border: 2px solid tomato;
+    display: flex;
+}
+.firstsectionleftdiv{
+    border: 2px solid black;
+    height: 460px;
+    width: 50%;
+    background: tomato;
+
+}
+.firstsectionrightdiv{
+    border: 2px solid tomato;
+    height: 460px;
+    width: 50%;
+    background: black;
+}
