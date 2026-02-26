@@ -1,6 +1,13 @@
 :root{
-    --black-color: black;
-    --tomato-color: skyblue;
+    --grey-color: black;
+    --whit-color: white;
+    --black-color: grey;
+    --main-color: tomato;
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
 
 .firsection{
 border: solid tomato;
@@ -10,7 +17,8 @@ display: flex;
     border:2px solid black;
     height: 460px;
     width: 50%;
-    background: var(--tomato-color);
+    padding: 20px;
+    
     
 
 }
@@ -18,5 +26,14 @@ display: flex;
     border: 2px solid purple;
     height: 460px;
     width: 50%;
-    background: var(--black-color);
+   
+}
+.line{
+    background: var(--main-color);
+    height: 16px;
+    width: 224px;
+    
+}
+.logotext span{
+    color: var(--main-color);
 }
