@@ -12,12 +12,20 @@
     border: 2px solid black;
     height: 460px;
     width: 50%;
-    background: tomato;
+    
 
 }
 .firstsectionrightdiv{
     border: 2px solid tomato;
     height: 460px;
     width: 50%;
-    background: black;
+    
+}
+.line{
+    background: var(--tomato-color);
+    height: 16px;
+    width: 224px;
+}
+.logotext{
+    color: tomato;
 }
