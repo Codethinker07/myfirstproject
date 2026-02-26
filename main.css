@@ -1,31 +1,22 @@
 :root{
-    --black-color: green;
-    --tomato-color: purple;
-}
+    --black-color: black;
+    --tomato-color: skyblue;
 
-
-.firstsection{
-    border: 2px solid tomato;
-    display: flex;
+.firsection{
+border: solid tomato;
+display: flex;
 }
-.firstsectionleftdiv{
-    border: 2px solid black;
+.firstsectionleft{
+    border:2px solid black;
     height: 460px;
     width: 50%;
-    
-
-}
-.firstsectionrightdiv{
-    border: 2px solid tomato;
-    height: 460px;
-    width: 50%;
-    
-}
-.line{
     background: var(--tomato-color);
-    height: 16px;
-    width: 224px;
+    
+
 }
-.logotext{
-    color: tomato;
+.firstsectionright{
+    border: 2px solid purple;
+    height: 460px;
+    width: 50%;
+    background: var(--black-color);
 }
