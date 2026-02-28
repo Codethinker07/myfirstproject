@@ -3,6 +3,7 @@
     --whit-color: white;
     --black-color: grey;
     --main-color: tomato;
+    --tomato-linear-gradient:linear-gradient(90deg, rgba(255, 99, 71, 0.4) 0%, rgba(235, 77, 49, 0.4) 100%);
     *{
         box-sizing: border-box;
         margin: 0px;
@@ -26,6 +27,17 @@ display: flex;
     border: 2px solid purple;
     height: 460px;
     width: 50%;
+    background: var(--tomato-linear-gradient),url(image/image1.jpg);
+
+    background-size: cover;
+    background-position: bottom left;
+
+
+
+    /* background: url(image/dots.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom center; */
+    /* background-size: contain; */
    
 }
 .line{
@@ -36,4 +48,11 @@ display: flex;
 }
 .logotext span{
     color: var(--main-color);
+   
+}
+.logotext{
+     margin: 0 0 20px 0;
+}
+.firstsectionleft p{
+    margin: 20px 0px 20px 0px;
 }
