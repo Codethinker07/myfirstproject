@@ -19,5 +19,14 @@
     .heading{
         font-size: 25px;
     }
-    
+    .thirdsection{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    footer{
+        text-align: center;
+        gap: 20px;
+        
+    }
 }
